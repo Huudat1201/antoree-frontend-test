@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../context/AppContext';
 import ProductCard from '../components/common/ProductCard';
 import EmptyState from '../components/common/EmptyState';
