@@ -15,7 +15,7 @@ const Header = ({ currentView, setCurrentView }) => {
             <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
                 {/* Sửa href="#" thành href="/" */}
                 <a href="/" onClick={(e) => { e.preventDefault(); setCurrentView('shop'); }} className="text-2xl font-bold text-blue-600 flex items-center">
-                    EduAI
+                    ANTOREE
                 </a>
                 <div className="flex items-center space-x-2 sm:space-x-6">
                     {navItems.map(item => (
