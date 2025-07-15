@@ -20,7 +20,7 @@ const Footer = () => {
             {/* Sửa href="#" thành href="/" */}
             <a href="/" className="text-xl font-bold text-white flex items-center justify-center sm:justify-start mb-2">
               {/* Icon Sparkles đã bị xóa khỏi đây, vì vậy cũng xóa import ở trên */}
-               EduAI
+               ANTOREE
             </a>
             <p className="text-sm">
               &copy; {new Date().getFullYear()} ANTOREE Project. All Rights Reserved.
