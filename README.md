@@ -2,7 +2,7 @@
 **Bài Kiểm Tra Kỹ Thuật Frontend - Sàn Giáo Dục Antoree**
 Đây là sản phẩm cho bài kiểm tra kỹ thuật vị trí Frontend Intern tại Antoree.com.
 Dự án mô phỏng một sàn thương mại điện tử giáo dục, được xây dựng bằng React và Tailwind CSS, với các tính năng thông minh được tích hợp qua Gemini API.🚀 Demo Sản Phẩm
-Xem Demo Trực Tuyến (Vercel): .Xem Video Giới Thiệu: .
+Xem Demo Trực Tuyến (Vercel): .Xem Video DEMO: https://drive.google.com/file/d/1JVHJAHd42Hh39C71TuBWQMPPa1o4nkwL/view?usp=sharing
 
 **1. Chức năng Cốt lõi**
  - Hiển thị, Tìm kiếm & Lọc: Tải và hiển thị danh sách khóa học, hỗ trợ tìm kiếm tức thì theo tên và lọc theo các khoảng giá.
