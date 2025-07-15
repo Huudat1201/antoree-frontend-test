@@ -23,7 +23,7 @@ const Footer = () => {
                EduAI
             </a>
             <p className="text-sm">
-              &copy; {new Date().getFullYear()} EduAI Project. All Rights Reserved.
+              &copy; {new Date().getFullYear()} ANTOREE Project. All Rights Reserved.
             </p>
              <p className="text-xs text-gray-500 mt-1">
               Một sản phẩm cho bài kiểm tra kỹ thuật Frontend.
