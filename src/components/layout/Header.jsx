@@ -1,5 +1,7 @@
+import React from 'react';
 import { useAppContext } from '../../context/AppContext';
-import { Search, Heart, ShoppingCart, Sparkles } from 'lucide-react';
+// Xóa 'Sparkles' khỏi dòng import này
+import { Search, Heart, ShoppingCart } from 'lucide-react';
 
 const Header = ({ currentView, setCurrentView }) => {
     const { state } = useAppContext();
@@ -11,8 +13,9 @@ const Header = ({ currentView, setCurrentView }) => {
     return (
         <header className="bg-white shadow-sm sticky top-0 z-30">
             <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
-                <a href="#" onClick={(e) => { e.preventDefault(); setCurrentView('shop'); }} className="text-2xl font-bold text-blue-600 flex items-center">
-                    ANTOREE
+                {/* Sửa href="#" thành href="/" */}
+                <a href="/" onClick={(e) => { e.preventDefault(); setCurrentView('shop'); }} className="text-2xl font-bold text-blue-600 flex items-center">
+                    EduAI
                 </a>
                 <div className="flex items-center space-x-2 sm:space-x-6">
                     {navItems.map(item => (
@@ -27,4 +30,5 @@ const Header = ({ currentView, setCurrentView }) => {
         </header>
     );
 };
+
 export default Header;
